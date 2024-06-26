@@ -1,19 +1,18 @@
 #!/bin/bash -e
 
 ## Dependency versions
-# Make sure to keep v_ndk and v_ndk_n in sync, the numeric version can be found in source.properties
-# also remember to update path.sh
+# Make sure to keep v_ndk and v_ndk_n in sync, both are listed on the NDK download page
 
-v_sdk=10406996_latest
-v_ndk=r26c
-v_ndk_n=26.2.11394342
+v_sdk=11076708_latest
+v_ndk=r26d
+v_ndk_n=26.3.11579264
 v_sdk_platform=34
-v_sdk_build_tools=30.0.3
+v_sdk_build_tools=34.0.0
 
 v_lua=5.2.4
 v_unibreak=6.1
-v_harfbuzz=8.3.0
-v_fribidi=1.0.13
+v_harfbuzz=8.5.0
+v_fribidi=1.0.14
 v_freetype=2-13-2
 v_mbedtls=3.5.2
 
